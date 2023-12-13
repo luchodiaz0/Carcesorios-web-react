@@ -1,0 +1,13 @@
+.contenedor{
+    display: flex;
+    background: #222427;
+    align-items: center;
+}
+.list{
+    margin-left: 10px;
+}
+.nombreUsuario{
+    margin: 10px;
+    color: white;
+    font-size: 20px;
+}

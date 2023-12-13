@@ -1,0 +1,14 @@
+div.w-33 {
+    width: 100%;
+}
+
+div.center {
+    text-align: center;
+}
+
+.boton{
+    margin: 20px;
+    background-color: rgb(220, 143, 0);
+    border-radius: 20px;
+    font-size: 25px;
+}

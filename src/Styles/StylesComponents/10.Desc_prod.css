@@ -1,0 +1,127 @@
+.titulop{
+    font-size: 30px;
+    color: rgb(220, 143, 0);
+}
+.descp{
+    font-size: 20px;
+    color: white;
+}
+.preciop{
+    font-size: 20px;
+    color: rgb(220, 143, 0);
+}
+#Producto{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+    display: grid;
+    grid-template-rows: repeat(2fr, 1fr);
+    grid-template-columns: 60% 40%;
+}
+.im1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    height: 120%;
+    width: 50%;
+    background: #2e3135;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.Im_principal{
+    margin-top: 25%;
+}
+.im2{
+    display: grid;
+    grid-row: 2;
+    grid-column: 1;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: 18.15% 18.15% 18.15% auto;
+    margin-top: 13%;
+}
+.Im_secundario_1{
+    display: grid;
+    grid-row: 1;
+    grid-column: 1;
+    background: #2e3135;
+    height: 35%;
+    margin-top: 5%;
+}
+.Im_secundario_2{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+    background: #2e3135;
+    height: 35%;
+    margin-top: 5%;
+}
+.Im_secundario_3{
+    display: grid;
+    grid-row: 1;
+    grid-column: 3;
+    background: #2e3135;
+    height: 35%;
+    margin-top: 5%;
+}
+.Titulo_Producto{
+    display: grid;
+    grid-row: 1;
+    grid-column: 2;
+}
+
+.Descripcion_Producto{
+    display: grid;
+    grid-row: 2;
+    grid-column: 2;
+    grid-template-rows: repeat(2fr, 1fr);
+    grid-template-columns: repeat(1fr, 1fr);
+}
+.Descripcion_Producto h4{
+    color: white;
+    font-size: 20px;
+}
+.Botones{
+    display: grid;
+    grid-column: 1;
+    grid-row: 2;
+    grid-template-rows: repeat(1fr, 1fr);
+    grid-template-columns: repeat(2fr, 1fr);
+}
+
+.Comprar ul{
+    list-style: none;
+}
+.Comprar ul a{
+    text-decoration: none;
+}
+.Imgcarrito2{
+    margin-left: 20%;
+    display: grid;
+    grid-column: 2;
+    grid-row: 1;
+}
+.Imgcarrito2 ul{
+    list-style: none;
+}
+.Imgcarrito2 ul a{
+    text-decoration: none;
+}
+.Com_letra{
+    color: #2e3135;
+    background: orange;
+    border: 1px solid black;
+    border-radius: 2px;
+    padding: 5px;
+    text-align: center;
+    font-size: 20px;
+}
+.Conte_carrito2{
+    background: rgb(220, 143, 0);
+    border-radius: 2px;
+    text-align: center;
+    width: 20%;
+    font-size: 30px;
+}
+.Carrito2{
+    width: 25%;
+}

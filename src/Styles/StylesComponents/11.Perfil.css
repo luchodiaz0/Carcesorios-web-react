@@ -1,0 +1,36 @@
+
+.card {
+    background-color: black;
+    border: 2px solid orange;
+    color: white;
+    max-width: 300px; /* Ajusta el ancho máximo según sea necesario */
+    padding: 10px;
+    margin: auto;
+    
+  }
+  .card-img-top {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 2px solid orange;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 150px; /* Ajusta la altura según sea necesario */
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .btn-primary {
+    background-color: orange;
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: darkorange; /* Cambia el color al pasar el ratón sobre el botón */
+  }
+  
